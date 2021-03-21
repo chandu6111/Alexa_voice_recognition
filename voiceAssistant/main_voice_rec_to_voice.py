@@ -12,7 +12,7 @@ engine=pyttsx3.init()
 voices=engine.getProperty('voices')
 engine.setProperty('voice',voices[1].id)
 
-engine.say('Hey DVS Uday Kiran, I am your voice assistant Alexa')
+engine.say('Hey Chandu, I am your voice assistant Alexa')
 engine.say('How can I help you?')
 engine.runAndWait()
 
